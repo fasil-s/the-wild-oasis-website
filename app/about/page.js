@@ -1,5 +1,12 @@
+import Navigation from "../components/Navigation";
+
 const Page = () => {
-  return <h1>it about wild oasis!</h1>;
+  return (
+    <div>
+      <Navigation />
+      <h1>it about wild oasis!</h1>;
+    </div>
+  );
 };
 
 export default Page;
