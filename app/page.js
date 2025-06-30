@@ -1,13 +1,3 @@
-import Navigation from "./components/Navigation";
-
-export default function Home() {
-  return (
-    <div>
-      <Navigation/>
-      <h1>hello next</h1>;
-    </div>
-  );
-}
 import Link from "next/link";
 import Image from "next/image";
 import bg from "@/public/bg.png";
